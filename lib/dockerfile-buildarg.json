@@ -7,5 +7,12 @@
         "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.*?=(?<currentValue>.*)"
       ]
     }
+  ],
+  "packageRules": [
+    {
+      "managers": ["regex"],
+      "packagePatterns": [".*"],
+      "extractVersion": "^(v)?(?<version>.*)$"
+    }
   ]
 }
