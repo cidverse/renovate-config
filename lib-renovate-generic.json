@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "regexManagers": [
+    {
+      "fileMatch": [
+        ".*\\.kt$",
+        ".*\\.java$"
+      ],
+      "matchStrings": [
+        "// renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.* = \"(?<currentValue>.*)\""
+      ]
+    }
+  ]
+}
