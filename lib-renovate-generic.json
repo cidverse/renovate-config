@@ -7,7 +7,7 @@
         ".*\\.java$"
       ],
       "matchStrings": [
-        "// renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.* = \"(?<currentValue>.*)\""
+        "// renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\r?\n.* = \"(?<currentValue>.*)\""
       ]
     }
   ]
