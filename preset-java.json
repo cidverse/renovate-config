@@ -1,14 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>philippheuer/renovate-config:lib/basic",
-    "github>philippheuer/renovate-config:lib/assignees",
-    "github>philippheuer/renovate-config:lib/dockerfile-buildarg"
+    "github>philippheuer/renovate-config:lib-basic",
+    "github>philippheuer/renovate-config:lib-assignees"
   ],
   "labels": [
     "dependencies"
   ],
-  "baseBranches": ["main"],
+  "baseBranches": ["develop"],
   "branchPrefix": "chore/dependencies/",
   "rebaseWhen": "behind-base-branch"
 }
