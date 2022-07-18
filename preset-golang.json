@@ -3,7 +3,8 @@
   "extends": [
     "github>philippheuer/renovate-config:lib-basic",
     "github>philippheuer/renovate-config:lib-assignees",
-    "github>philippheuer/renovate-config:lib-renovate-generic"
+    "github>philippheuer/renovate-config:lib-renovate-generic",
+    "github>philippheuer/renovate-config:lib-exclude"
   ],
   "labels": [
     "dependencies"
