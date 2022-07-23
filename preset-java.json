@@ -4,7 +4,7 @@
     "github>philippheuer/renovate-config:lib-basic",
     "github>philippheuer/renovate-config:lib-assignees",
     "github>philippheuer/renovate-config:lib-renovate-generic",
-    "github>philippheuer/renovate-config:lib-automerge"
+    "github>philippheuer/renovate-config:lib-automerge-minor"
   ],
   "labels": [
     "dependencies"
