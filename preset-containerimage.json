@@ -3,7 +3,8 @@
   "extends": [
     "github>philippheuer/renovate-config:lib-basic",
     "github>philippheuer/renovate-config:lib-assignees",
-    "github>philippheuer/renovate-config:lib-dockerfile-buildarg"
+    "github>philippheuer/renovate-config:lib-container-buildarg",
+    "github>philippheuer/renovate-config:lib-container-buildah"
   ],
   "labels": [
     "dependencies"
