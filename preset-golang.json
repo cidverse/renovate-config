@@ -3,6 +3,7 @@
   "extends": [
     "github>philippheuer/renovate-config:lib-basic",
     "github>philippheuer/renovate-config:lib-assignees",
+    "github>philippheuer/renovate-config:lib-committype-chore",
     "github>philippheuer/renovate-config:lib-renovate-generic",
     "github>philippheuer/renovate-config:lib-exclude",
     "github>philippheuer/renovate-config:lib-golang-common"
