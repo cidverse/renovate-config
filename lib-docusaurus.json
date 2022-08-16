@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "regexManagers": [
+    {
+      "fileMatch": [
+        ".*\\.mdx$"
+      ],
+      "datasourceTemplate": "maven",
+      "depNameTemplate": "{{{group}}}:{{{name}}}",
+      "matchStrings": [
+        "<JavaDependency group=\"(?<group>.*?)\" name=\"(?<name>.*?)\" version=\"(?<currentValue>.*?)\".*/>"
+      ]
+    }
+  ]
+}
