@@ -5,7 +5,10 @@
     "github>philippheuer/renovate-config:lib-assignees",
     "github>philippheuer/renovate-config:lib-committype-chore",
     "github>philippheuer/renovate-config:lib-renovate-generic",
-    "github>philippheuer/renovate-config:lib-automerge-minor"
+    "github>philippheuer/renovate-config:lib-automerge-minor",
+    "github>philippheuer/renovate-config:lib-java-group",
+    "github>philippheuer/renovate-config:lib-java-version",
+    "github>philippheuer/renovate-config:lib-java-javadocio"
   ],
   "labels": [
     "dependencies"

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchPackagePrefixes": ["org.infinispan"],
+      "allowedVersions": "/Final$/",
+      "matchDatasources": ["maven"]
+    }
+  ]
+}
