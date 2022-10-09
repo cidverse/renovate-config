@@ -4,7 +4,8 @@
     "github>philippheuer/renovate-config:lib-basic",
     "github>philippheuer/renovate-config:lib-assignees",
     "github>philippheuer/renovate-config:lib-committype-chore",
-    "github>philippheuer/renovate-config:lib-docusaurus"
+    "github>philippheuer/renovate-config:lib-docusaurus",
+    ":preserveSemverRanges"
   ],
   "labels": [
     "dependencies"
