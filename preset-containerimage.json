@@ -5,7 +5,8 @@
     "github>philippheuer/renovate-config:lib-assignees",
     "github>philippheuer/renovate-config:lib-committype-chore",
     "github>philippheuer/renovate-config:lib-container-buildarg",
-    "github>philippheuer/renovate-config:lib-container-buildah"
+    "github>philippheuer/renovate-config:lib-container-buildah",
+    "github>philippheuer/renovate-config:lib-versioning-fix"
   ],
   "labels": [
     "dependencies"

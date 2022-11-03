@@ -1,0 +1,33 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": ["github-releases"],
+      "matchPackageNames": [
+        "corretto/corretto-8",
+        "corretto/corretto-11",
+        "corretto/corretto-17",
+        "corretto/corretto-18",
+        "corretto/corretto-19"
+      ],
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.*(?<patch>\\d*)\\.(?<build>.+)$"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": [
+        "quay.io/cidverse/base-ubi",
+        "quay.io/cidverse/base-ubi-build"
+      ],
+      "versioning": "redhat"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": [
+        "quay.io/cidverse/base-coretto-11",
+        "quay.io/cidverse/base-coretto-17",
+        "quay.io/cidverse/base-coretto-19"
+      ],
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.*(?<patch>\\d*)\\.(?<build>.+)$"
+    }
+  ]
+}
