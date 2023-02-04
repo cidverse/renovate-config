@@ -37,6 +37,13 @@
       "versioning": "regex:^openssl-(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d*)$"
     },
     {
+      "matchDatasources": ["github-releases"],
+      "matchPackageNames": [
+        "SonarSource/sonar-scanner-cli"
+      ],
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d*)\\.(?<build>\\d+)$"
+    },
+    {
       "matchDatasources": ["docker"],
       "matchPackageNames": [
         "quay.io/cidverse/base-ubi",
@@ -52,6 +59,13 @@
         "quay.io/cidverse/base-coretto-19"
       ],
       "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.*(?<patch>\\d*)\\.(?<build>.+)$"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": [
+        "quay.io/cidverse/sonarscannercli"
+      ],
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d*)\\.(?<build>\\d+)$"
     }
   ]
 }
