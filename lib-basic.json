@@ -8,7 +8,8 @@
     ":prConcurrentLimitNone",
     ":disableDependencyDashboard",
     ":separateMultipleMajorReleases",
-    ":combinePatchMinorReleases"
+    ":combinePatchMinorReleases",
+    ":preserveSemverRanges"
   ],
   "digest": {
     "enabled": false

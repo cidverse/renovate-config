@@ -2,7 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "github>philippheuer/renovate-config:lib-basic",
-    "github>philippheuer/renovate-config:lib-assignees",
     "github>philippheuer/renovate-config:lib-committype-chore",
     "github>philippheuer/renovate-config:lib-container-buildarg",
     "github>philippheuer/renovate-config:lib-container-buildah",
@@ -11,7 +10,6 @@
   "labels": [
     "dependencies"
   ],
-  "baseBranches": ["main"],
   "branchPrefix": "chore/dependencies/",
   "rebaseWhen": "behind-base-branch"
 }

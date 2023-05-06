@@ -2,15 +2,12 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "github>philippheuer/renovate-config:lib-basic",
-    "github>philippheuer/renovate-config:lib-assignees",
     "github>philippheuer/renovate-config:lib-committype-chore",
-    "github>philippheuer/renovate-config:lib-docusaurus",
-    ":preserveSemverRanges"
+    "github>philippheuer/renovate-config:lib-docusaurus"
   ],
   "labels": [
     "dependencies"
   ],
-  "baseBranches": ["develop"],
   "branchPrefix": "chore/dependencies/",
   "rebaseWhen": "behind-base-branch"
 }

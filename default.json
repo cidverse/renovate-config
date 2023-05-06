@@ -4,10 +4,15 @@
     "github>philippheuer/renovate-config:lib-basic",
     "github>philippheuer/renovate-config:lib-committype-chore",
     "github>philippheuer/renovate-config:lib-renovate-generic",
-    "github>philippheuer/renovate-config:lib-automerge-minor",
+    "github>philippheuer/renovate-config:lib-golang-common",
+    "github>philippheuer/renovate-config:lib-container-buildarg",
+    "github>philippheuer/renovate-config:lib-container-buildah",
+    "github>philippheuer/renovate-config:lib-versioning-fix",
     "github>philippheuer/renovate-config:lib-java-group",
     "github>philippheuer/renovate-config:lib-java-version",
-    "github>philippheuer/renovate-config:lib-java-javadocio"
+    "github>philippheuer/renovate-config:lib-java-javadocio",
+    "github>philippheuer/renovate-config:lib-docusaurus",
+    "github>philippheuer/renovate-config:lib-exclude"
   ],
   "labels": [
     "dependencies"
