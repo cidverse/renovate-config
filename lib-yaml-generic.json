@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "regexManagers": [
+    {
+      "fileMatch": [
+        ".*\\.yml$",
+        ".*\\.yaml$"
+      ],
+      "matchStrings": [
+        "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\r?\n.*: \"(?<currentValue>.*)\""
+      ]
+    }
+  ]
+}
