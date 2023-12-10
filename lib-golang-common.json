@@ -5,5 +5,9 @@
       "matchDatasources": ["golang-version"],
       "rangeStrategy": "replace"
     }
+  ],
+  "postUpdateOptions": [
+    "gomodUpdateImportPaths",
+    "gomodTidy"
   ]
 }
