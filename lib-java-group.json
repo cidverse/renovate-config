@@ -81,6 +81,28 @@
         "^org\\.springframework"
       ],
       "matchDatasources": ["maven"]
+    },
+    {
+      "groupName": "com.github.javaparser",
+      "matchPackagePatterns": [
+        "^com\\.github\\.javaparser"
+      ],
+      "matchDatasources": ["maven"]
+    },
+    {
+      "groupName": "com.auth0.java-jwt",
+      "matchPackagePatterns": [
+        "^com\\.auth0:java-jwt",
+        "^com\\.auth0:jwks-rsa"
+      ],
+      "matchDatasources": ["maven"]
+    },
+    {
+      "groupName": "org.apache.lucene",
+      "matchPackagePatterns": [
+        "^org\\.apache\\.lucene"
+      ],
+      "matchDatasources": ["maven"]
     }
   ]
 }
