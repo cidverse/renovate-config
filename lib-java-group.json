@@ -103,6 +103,13 @@
         "^org\\.apache\\.lucene"
       ],
       "matchDatasources": ["maven"]
+    },
+    {
+      "groupName": "org.slf4j",
+      "matchPackagePatterns": [
+        "^org\\.slf4j"
+      ],
+      "matchDatasources": ["maven"]
     }
   ]
 }
