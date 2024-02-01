@@ -6,7 +6,7 @@
     "github>philippheuer/renovate-config:lib-container-buildarg",
     "github>philippheuer/renovate-config:lib-container-buildah",
     "github>philippheuer/renovate-config:lib-versioning-fix",
-    "github>philippheuer/renovate-config:lib-cid-workflow"
+    "github>philippheuer/renovate-config:lib-exclude"
   ],
   "labels": [
     "dependencies"

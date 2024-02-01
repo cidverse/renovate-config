@@ -13,8 +13,7 @@
     "github>philippheuer/renovate-config:lib-java-javadocio",
     "github>philippheuer/renovate-config:lib-yaml-generic",
     "github>philippheuer/renovate-config:lib-docusaurus",
-    "github>philippheuer/renovate-config:lib-exclude",
-    "github>philippheuer/renovate-config:lib-cid-workflow"
+    "github>philippheuer/renovate-config:lib-exclude"
   ],
   "labels": [
     "dependencies"

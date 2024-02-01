@@ -8,7 +8,7 @@
     "github>philippheuer/renovate-config:lib-java-group",
     "github>philippheuer/renovate-config:lib-java-version",
     "github>philippheuer/renovate-config:lib-java-javadocio",
-    "github>philippheuer/renovate-config:lib-cid-workflow"
+    "github>philippheuer/renovate-config:lib-exclude"
   ],
   "labels": [
     "dependencies"

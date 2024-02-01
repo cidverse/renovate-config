@@ -4,7 +4,7 @@
     "github>philippheuer/renovate-config:lib-basic",
     "github>philippheuer/renovate-config:lib-committype-chore",
     "github>philippheuer/renovate-config:lib-docusaurus",
-    "github>philippheuer/renovate-config:lib-cid-workflow"
+    "github>philippheuer/renovate-config:lib-exclude"
   ],
   "labels": [
     "dependencies"

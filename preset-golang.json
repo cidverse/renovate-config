@@ -6,7 +6,7 @@
     "github>philippheuer/renovate-config:lib-renovate-generic",
     "github>philippheuer/renovate-config:lib-exclude",
     "github>philippheuer/renovate-config:lib-golang-common",
-    "github>philippheuer/renovate-config:lib-cid-workflow"
+    "github>philippheuer/renovate-config:lib-exclude"
   ],
   "labels": [
     "dependencies"
