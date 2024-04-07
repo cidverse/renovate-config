@@ -1,16 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>philippheuer/renovate-config:lib-basic",
-    "github>philippheuer/renovate-config:lib-committype-chore",
-    "github>philippheuer/renovate-config:lib-renovate-generic",
-    "github>philippheuer/renovate-config:lib-exclude",
-    "github>philippheuer/renovate-config:lib-golang-common",
-    "github>philippheuer/renovate-config:lib-exclude"
+    "github>cidverse/renovate-config:lib-basic",
+    "github>cidverse/renovate-config:lib-committype-chore",
+    "github>cidverse/renovate-config:lib-renovate-generic",
+    "github>cidverse/renovate-config:lib-exclude",
+    "github>cidverse/renovate-config:lib-golang-common",
+    "github>cidverse/renovate-config:lib-exclude"
   ],
-  "labels": [
-    "dependencies"
-  ],
+  "labels": ["dependencies"],
   "branchPrefix": "chore/dependencies/",
   "rebaseWhen": "behind-base-branch"
 }

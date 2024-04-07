@@ -1,19 +1,17 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>philippheuer/renovate-config:lib-basic",
-    "github>philippheuer/renovate-config:lib-committype-chore",
-    "github>philippheuer/renovate-config:lib-renovate-generic",
-    "github>philippheuer/renovate-config:lib-automerge-minor",
-    "github>philippheuer/renovate-config:lib-java-group",
-    "github>philippheuer/renovate-config:lib-java-version",
-    "github>philippheuer/renovate-config:lib-java-javadocio",
-    "github>philippheuer/renovate-config:lib-java-support",
-    "github>philippheuer/renovate-config:lib-exclude"
+    "github>cidverse/renovate-config:lib-basic",
+    "github>cidverse/renovate-config:lib-committype-chore",
+    "github>cidverse/renovate-config:lib-renovate-generic",
+    "github>cidverse/renovate-config:lib-automerge-minor",
+    "github>cidverse/renovate-config:lib-java-group",
+    "github>cidverse/renovate-config:lib-java-version",
+    "github>cidverse/renovate-config:lib-java-javadocio",
+    "github>cidverse/renovate-config:lib-java-support",
+    "github>cidverse/renovate-config:lib-exclude"
   ],
-  "labels": [
-    "dependencies"
-  ],
+  "labels": ["dependencies"],
   "branchPrefix": "chore/dependencies/",
   "rebaseWhen": "behind-base-branch"
 }

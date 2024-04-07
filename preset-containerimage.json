@@ -1,16 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>philippheuer/renovate-config:lib-basic",
-    "github>philippheuer/renovate-config:lib-committype-chore",
-    "github>philippheuer/renovate-config:lib-container-buildarg",
-    "github>philippheuer/renovate-config:lib-container-buildah",
-    "github>philippheuer/renovate-config:lib-versioning-fix",
-    "github>philippheuer/renovate-config:lib-exclude"
+    "github>cidverse/renovate-config:lib-basic",
+    "github>cidverse/renovate-config:lib-committype-chore",
+    "github>cidverse/renovate-config:lib-container-buildarg",
+    "github>cidverse/renovate-config:lib-container-buildah",
+    "github>cidverse/renovate-config:lib-versioning-fix",
+    "github>cidverse/renovate-config:lib-exclude"
   ],
-  "labels": [
-    "dependencies"
-  ],
+  "labels": ["dependencies"],
   "branchPrefix": "chore/dependencies/",
   "rebaseWhen": "behind-base-branch"
 }
