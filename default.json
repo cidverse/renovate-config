@@ -13,12 +13,11 @@
     "github>philippheuer/renovate-config:lib-java-javadocio",
     "github>philippheuer/renovate-config:lib-java-support",
     "github>philippheuer/renovate-config:lib-yaml-generic",
+    "github>philippheuer/renovate-config:lib-nix-generic",
     "github>philippheuer/renovate-config:lib-docusaurus",
     "github>philippheuer/renovate-config:lib-exclude"
   ],
-  "labels": [
-    "dependencies"
-  ],
+  "labels": ["dependencies"],
   "branchPrefix": "chore/dependencies/",
   "rebaseWhen": "behind-base-branch"
 }
