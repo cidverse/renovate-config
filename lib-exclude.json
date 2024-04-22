@@ -1,7 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "ignorePaths": [
-    ".github/workflows/cid.yml",
-    ".github/workflows/cid-pullrequest.yml"
+    ".github/workflows/cid**"
   ]
 }
