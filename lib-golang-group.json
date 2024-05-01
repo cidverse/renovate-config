@@ -3,9 +3,7 @@
   "packageRules": [
     {
       "groupName": "github.com/cidverse/cidverseutils",
-      "matchPackagePatterns": [
-        "^github\\.com/cidverse/cidverseutils"
-      ],
+      "matchPackagePatterns": ["^github\\.com/cidverse/cidverseutils"],
       "matchDatasources": ["maven"]
     }
   ]

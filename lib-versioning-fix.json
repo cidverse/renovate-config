@@ -7,8 +7,8 @@
         "corretto/corretto-8",
         "corretto/corretto-11",
         "corretto/corretto-17",
-        "corretto/corretto-18",
-        "corretto/corretto-19"
+        "corretto/corretto-21",
+        "corretto/corretto-22"
       ],
       "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.*(?<patch>\\d*)\\.(?<build>.+)$"
     },
@@ -25,7 +25,11 @@
         "adoptium/temurin11-binaries",
         "adoptium/temurin17-binaries",
         "adoptium/temurin18-binaries",
-        "adoptium/temurin19-binaries"
+        "adoptium/temurin19-binaries",
+        "adoptium/temurin20-binaries",
+        "adoptium/temurin21-binaries",
+        "adoptium/temurin22-binaries"
+
       ],
       "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.*(?<patch>\\d*)+(?<build>.+)$"
     },
@@ -46,6 +50,13 @@
     {
       "matchDatasources": ["docker"],
       "matchPackageNames": [
+        "quay.io/cidverse/sonarscannercli"
+      ],
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d*)\\.(?<build>\\d+)$"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": [
         "quay.io/cidverse/base-ubi",
         "quay.io/cidverse/base-ubi-build"
       ],
@@ -56,16 +67,10 @@
       "matchPackageNames": [
         "quay.io/cidverse/base-coretto-11",
         "quay.io/cidverse/base-coretto-17",
-        "quay.io/cidverse/base-coretto-19"
+        "quay.io/cidverse/base-coretto-21",
+        "quay.io/cidverse/base-coretto-22"
       ],
       "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.*(?<patch>\\d*)\\.(?<build>.+)$"
-    },
-    {
-      "matchDatasources": ["docker"],
-      "matchPackageNames": [
-        "quay.io/cidverse/sonarscannercli"
-      ],
-      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d*)\\.(?<build>\\d+)$"
     }
   ]
 }
