@@ -6,6 +6,7 @@
     "github>cidverse/renovate-config:lib-renovate-generic",
     "github>cidverse/renovate-config:lib-exclude",
     "github>cidverse/renovate-config:lib-golang-common",
+    "github>cidverse/renovate-config:lib-golang-group",
     "github>cidverse/renovate-config:lib-exclude"
   ],
   "labels": ["dependencies"],

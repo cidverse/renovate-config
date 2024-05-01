@@ -5,6 +5,7 @@
     "github>cidverse/renovate-config:lib-committype-chore",
     "github>cidverse/renovate-config:lib-renovate-generic",
     "github>cidverse/renovate-config:lib-golang-common",
+    "github>cidverse/renovate-config:lib-golang-group",
     "github>cidverse/renovate-config:lib-container-buildarg",
     "github>cidverse/renovate-config:lib-container-buildah",
     "github>cidverse/renovate-config:lib-versioning-fix",
