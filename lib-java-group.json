@@ -110,6 +110,20 @@
         "^org\\.slf4j"
       ],
       "matchDatasources": ["maven"]
+    },
+    {
+      "groupName": "org.openapitools:openapi-generator",
+      "matchPackagePatterns": [
+        "^org\\.openapitools:openapi-generator"
+      ],
+      "matchDatasources": ["maven"]
+    },
+    {
+      "groupName": "io.micrometer",
+      "matchPackagePatterns": [
+        "^io\\.micrometer:"
+      ],
+      "matchDatasources": ["maven"]
     }
   ]
 }
