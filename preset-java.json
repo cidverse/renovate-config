@@ -9,6 +9,8 @@
     "github>cidverse/renovate-config:lib-java-version",
     "github>cidverse/renovate-config:lib-java-javadocio",
     "github>cidverse/renovate-config:lib-java-support",
+    "github>cidverse/renovate-config:lib-java-changelog",
+    "github>cidverse/renovate-config:lib-java-gradleplugin-sourceurl",
     "github>cidverse/renovate-config:lib-exclude"
   ],
   "labels": ["dependencies"],
