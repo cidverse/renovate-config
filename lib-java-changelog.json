@@ -10,6 +10,16 @@
       "matchDatasources": ["maven"],
       "matchPackageNames": ["commons-io:commons-io"],
       "changelogUrl": "https://github.com/apache/commons-io/blob/master/RELEASE-NOTES.txt"
+    },
+    {
+      "matchDatasources": ["maven"],
+      "matchPackageNames": ["org.junit:junit-bom"],
+      "changelogUrl": "https://junit.org/junit5/docs/5.11.0/release-notes/"
+    },
+    {
+      "matchDatasources": ["maven"],
+      "matchPackageNames": ["com.google.guava:guava"],
+      "sourceUrl": "https://github.com/google/guava"
     }
   ]
 }

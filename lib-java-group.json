@@ -3,16 +3,12 @@
   "packageRules": [
     {
       "groupName": "com.fasterxml.jackson",
-      "matchPackagePatterns": [
-        "^com\\.fasterxml\\.jackson"
-      ],
+      "matchPackagePatterns": ["^com\\.fasterxml\\.jackson"],
       "matchDatasources": ["maven"]
     },
     {
       "groupName": "io.projectreactor",
-      "matchPackagePatterns": [
-        "^io\\.projectreactor"
-      ],
+      "matchPackagePatterns": ["^io\\.projectreactor"],
       "matchDatasources": ["maven"]
     },
     {
@@ -35,58 +31,42 @@
     },
     {
       "groupName": "io.github.resilience4j",
-      "matchPackagePatterns": [
-        "^io\\.github\\.resilience4j"
-      ],
+      "matchPackagePatterns": ["^io\\.github\\.resilience4j"],
       "matchDatasources": ["maven"]
     },
     {
       "groupName": "org.jetbrains.kotlinx",
-      "matchPackagePatterns": [
-        "^org\\.jetbrains\\.kotlinx"
-      ],
+      "matchPackagePatterns": ["^org\\.jetbrains\\.kotlinx"],
       "matchDatasources": ["maven"]
     },
     {
       "groupName": "com.github.philippheuer.events4j",
-      "matchPackagePatterns": [
-        "^com\\.github\\.philippheuer\\.events4j"
-      ],
+      "matchPackagePatterns": ["^com\\.github\\.philippheuer\\.events4j"],
       "matchDatasources": ["maven"]
     },
     {
       "groupName": "io.github.openfeign",
-      "matchPackagePatterns": [
-        "^io\\.github\\.openfeign"
-      ],
+      "matchPackagePatterns": ["^io\\.github\\.openfeign"],
       "matchDatasources": ["maven"]
     },
     {
       "groupName": "com.apollographql.apollo",
-      "matchPackagePatterns": [
-        "^com\\.apollographql\\.apollo"
-      ],
+      "matchPackagePatterns": ["^com\\.apollographql\\.apollo"],
       "matchDatasources": ["maven"]
     },
     {
       "groupName": "com.github.twitch4j",
-      "matchPackagePatterns": [
-        "^com\\.github\\.twitch4j"
-      ],
+      "matchPackagePatterns": ["^com\\.github\\.twitch4j"],
       "matchDatasources": ["maven"]
     },
     {
       "groupName": "org.springframework",
-      "matchPackagePatterns": [
-        "^org\\.springframework"
-      ],
+      "matchPackagePatterns": ["^org\\.springframework"],
       "matchDatasources": ["maven"]
     },
     {
       "groupName": "com.github.javaparser",
-      "matchPackagePatterns": [
-        "^com\\.github\\.javaparser"
-      ],
+      "matchPackagePatterns": ["^com\\.github\\.javaparser"],
       "matchDatasources": ["maven"]
     },
     {
@@ -99,30 +79,22 @@
     },
     {
       "groupName": "org.apache.lucene",
-      "matchPackagePatterns": [
-        "^org\\.apache\\.lucene"
-      ],
+      "matchPackagePatterns": ["^org\\.apache\\.lucene"],
       "matchDatasources": ["maven"]
     },
     {
       "groupName": "org.slf4j",
-      "matchPackagePatterns": [
-        "^org\\.slf4j"
-      ],
+      "matchPackagePatterns": ["^org\\.slf4j"],
       "matchDatasources": ["maven"]
     },
     {
       "groupName": "org.openapitools:openapi-generator",
-      "matchPackagePatterns": [
-        "^org\\.openapitools:openapi-generator"
-      ],
+      "matchPackagePatterns": ["^org\\.openapitools:openapi-generator"],
       "matchDatasources": ["maven"]
     },
     {
       "groupName": "io.micrometer",
-      "matchPackagePatterns": [
-        "^io\\.micrometer:"
-      ],
+      "matchPackagePatterns": ["^io\\.micrometer:"],
       "matchDatasources": ["maven"]
     }
   ]
