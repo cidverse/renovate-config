@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchSourceUrlPrefixes": ["https://github.com/"],
+      "prBodyDefinitions": {
+        "OpenSSF": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/{{sourceRepo}}/badge)](https://securityscorecards.dev/viewer/?uri=github.com/{{sourceRepo}})"
+      }
+    },
+    {
+      "matchDatasources": ["gradle-version"],
+      "prBodyColumns": ["Package", "Change", "OpenSSF"]
+    }
+  ]
+}
