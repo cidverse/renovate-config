@@ -9,6 +9,7 @@
     "github>cidverse/renovate-config:lib-container-buildarg",
     "github>cidverse/renovate-config:lib-container-buildah",
     "github>cidverse/renovate-config:lib-versioning-fix",
+    "github>cidverse/renovate-config:lib-java-reproducible",
     "github>cidverse/renovate-config:lib-java-group",
     "github>cidverse/renovate-config:lib-java-version",
     "github>cidverse/renovate-config:lib-java-javadocio",
