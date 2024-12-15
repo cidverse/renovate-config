@@ -4,7 +4,7 @@
     {
       "fileMatch": [".*\\.nix$"],
       "matchStrings": [
-        "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\r?\n.*version = \"(?<currentValue>.*)\";"
+        "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\r?\n[\\s\\S]*version = \"(?<currentValue>.*)\";"
       ]
     }
   ]
